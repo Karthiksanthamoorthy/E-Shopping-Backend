@@ -14,7 +14,7 @@ dotenv.config();
 
 const uri = process.env.MONGO_URL
 
-mongoose
+mongoose 
  .connect(process.env.MONGO_URL) 
  .then(() => console.log("DB Connection Successfull!"))
     .catch((err) => {
